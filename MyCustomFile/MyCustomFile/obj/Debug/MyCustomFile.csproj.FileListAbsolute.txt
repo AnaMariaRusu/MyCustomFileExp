@@ -1,0 +1,17 @@
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.csprojAssemblyReference.cache
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\Views\ConverterControl.g.cs
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\Views\ConvertWindow.g.cs
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\App.g.cs
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile_MarkupCompile.cache
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile_MarkupCompile.lref
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\bin\Debug\MyCustomFile.exe
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\bin\Debug\MyCustomFile.pdb
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\Views\ConverterControl.baml
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\Views\ConvertWindow.baml
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.g.resources
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.Properties.Resources.resources
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.csproj.GenerateResource.cache
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.csproj.CoreCompileInputs.cache
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.exe
+C:\Users\Ana\Desktop\MyCustomFile\MyCustomFile\obj\Debug\MyCustomFile.pdb

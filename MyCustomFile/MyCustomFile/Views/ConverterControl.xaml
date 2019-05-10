@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="MyCustomFile.Views.ConverterControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ViewModels="clr-namespace:MyCustomFile.ViewModels"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance ViewModels:Presenter}" Height="388" Width="680">
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="Enter" Command="{Binding ConvertTextCommand}"/>
+    </UserControl.InputBindings>
+
+    <Grid>
+        <Button Command="{Binding SearchTextCommand}" Margin="365,73,221,286" RenderTransformOrigin="4.913,-1.172" Click="Button_Click" Content="Search"/>
+        <!--<TextBox Text="{Binding SomeText, UpdateSourceTrigger=PropertyChanged}" Margin="581,17,19,345" TextChanged="TextBox_TextChanged"/>-->
+        <Label Content="Choose a dir " HorizontalAlignment="Left" Margin="259,27,0,0" VerticalAlignment="Top" Width="121" RenderTransformOrigin="0.688,0.769"/>
+        <ListBox ItemsSource="{Binding History}" Margin="259,115,19,22" MouseDoubleClick="ListBox_MouseDoubleClick"/>
+        <ComboBox  Height="29" HorizontalAlignment="Left" Margin="259,73,0,0" Name="mycomboBox" VerticalAlignment="Top" Width="89" />
+        <ListBox HorizontalAlignment="Left" Height="352" VerticalAlignment="Top" Width="215"  Name="myListBox" Margin="20,17,0,0"/>
+        <Button Content="History" HorizontalAlignment="Left" Margin="581,73,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_1" Height="29" RenderTransformOrigin="0.281,0.586"/>
+        <GroupBox Header="Root Partitions" HorizontalAlignment="Left" Height="378" Margin="10,0,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="-1,0.143"/>
+        <GroupBox Header="Options" HorizontalAlignment="Left" Height="378" Margin="250,0,0,0" VerticalAlignment="Top" Width="420"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="473,73,0,0" VerticalAlignment="Top" Width="89" Height="29" Click="Button_Click_2"/>
+
+    </Grid>
+
+
+</UserControl>
